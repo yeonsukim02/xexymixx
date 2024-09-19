@@ -1,0 +1,35 @@
+header{
+    background-color: #000; height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    padding: 0 100px;
+}
+header h1{width: 260px;}
+header img{width: 100%;}
+header nav .gnb{
+    display: flex;
+}
+header nav .gnb > li {
+    margin-right: 60px;
+}
+header nav .gnb > li:last-child{margin-right: 0;}
+header nav .gnb > li a{
+    color: #fff;
+    font-size: 1.13em;
+    letter-spacing: 0.02em;
+}
+header nav .gnb > li a span{
+    color: #44d62c;
+    margin: 10px;
+}
+header .lnb{display: flex;}
+header .lnb > a{
+    margin-right: 35px;
+    width: 24px;
+}
+header .lnb > a:last-child{margin-right: 0;}
+header .lnb a > img{width: 100%;}
