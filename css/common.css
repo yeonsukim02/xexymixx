@@ -33,3 +33,48 @@ header .lnb > a{
 }
 header .lnb > a:last-child{margin-right: 0;}
 header .lnb a > img{width: 100%;}
+footer{
+    background: #000;
+}
+footer li{color: #fff;}
+footer .f_top{
+    display: flex;
+
+}
+footer .f_top .f_top_left{}
+footer .f_top .f_top_left h1{}
+footer .f_top .f_top_left h1 img{}
+footer .f_top .f_top_left ul{}
+footer .f_top .f_top_left .info{}
+footer .f_top .f_top_left ul li{}
+footer .f_top .f_top_right{
+    display: flex;
+}
+footer .f_top .f_top_right ul{}
+footer .f_top .f_top_right ul li{}
+footer .f_top .f_top_right .bank{}
+footer .f_top .f_top_right .bank .title{}
+footer .f_top .f_top_right .menu{}
+footer .f_top .f_top_right .menu .title{}
+footer .f_top .f_top_right .customer{}
+footer .f_top .f_top_right .customer .title{}
+footer .f_top .bar{}
+footer .f_bottom{
+    display: flex;
+}
+footer .f_bottom .f_bottom_left{
+    display: flex;
+}
+footer .f_bottom .f_bottom_left ul{}
+footer .f_bottom .f_bottom_left ul li{}
+footer .f_bottom .f_bottom_left .privacy{}
+footer .f_bottom .f_bottom_left .privacy .privacy_link{}
+footer .f_bottom .f_bottom_left .privacy .privacy_link a{}
+footer .f_bottom .f_bottom_right{
+    display: flex;
+}
+footer .f_bottom .f_bottom_right ul{}
+footer .f_bottom .f_bottom_right ul li{}
+footer .f_bottom .f_bottom_right ul li a{}
+footer .f_bottom .f_bottom_right ul li a img{}
+footer .f_bottom .f_bottom_right .sns{}
