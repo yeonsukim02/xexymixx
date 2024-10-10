@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- 스와이퍼 플러그인 필수 연결파일 -->
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reggings.css">
+    <!-- 제이쿼리 라이브러리 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/common.js" defer></script>
+    <script src="./script/main.js" defer></script>
+    <script src="./script/reggings.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html"><img src="./img/logo.png" alt="젝시믹스 로고"></a></h1>
+        <nav>
+            <ul class="gnb">
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">KIDS</a></li>
+                <li><a href="#"><span>|</span>SPORTS WEAR</a></li>
+                <li><a href="#"><span>|</span>BUSINESS WEAR</a></li>
+            </ul>
+        </nav>
+        <div class="lnb">
+            <a href="#"><img src="./img/lnb01.png" alt="장바구니"></a>
+            <a href="#"><img src="./img/lnb02.png" alt="로그인"></a>
+            <a href="#"><img src="./img/lnb03.png" alt="검색하기"></a>
+        </div>
+    </header>
+    <main>
+        <section class="product_wrap">
+            <div class="swiper product_color_all"><!-- 스와이퍼 -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 블랙"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 카키"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 퍼플"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 블루"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 옐로우"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 화이트"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <form id="product_detail_wrap" name="product_detail_wrap" method="get">
+                <div class="product_name_wrap">
+                    <div class="name_wrap">
+                        <h1>블랙라벨 시그니처 380N 레깅스</h1>
+                        <p>XP9167F</p>
+                    </div>
+                    <div class="label_wrap">
+                        <p>8컬러</p>
+                        <p>2XL</p>
+                    </div>
+                    <div class="price_wrap">
+                        <strong>49,000원</strong>
+                        <del>59,0000원</del>
+                        <em>16%</em>
+                    </div>
+                </div>
+                <div class="product_size_wrap">
+                    <div class="title_wrap">
+                        <h2>사이즈</h2>
+                        <p>[필수] 옵션을 선택해 세요</p>
+                    </div>
+                    <div class="size_wrap">
+                        <a href="#"><p>S (44-55)</p></a>
+                        <a href="#"><p>M (55.5-66)</p></a>
+                        <a href="#"><p>L (66.5-77)</p></a>
+                        <a href="#"><p>XL (77.5-88)</p></a>
+                        <a href="#"><p>XXL (88.5-99)</p></a>
+                    </div>
+                </div>
+                <div class="product_color_wrap">
+                    <div class="title_wrap">
+                        <h2>색상</h2>
+                        <p>[필수] 옵션을 선택해 주세요</p>
+                    </div>
+                    <div class="swiper color_all"><!-- 스와이퍼 -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide color_li"><a href="#"><img src="./img/reggings/color01.png" alt="레깅스 이미지 블랙"></a></div>
+                            <div class="swiper-slide color_li"><a href="#"><img src="./img/reggings/color02.png" alt="레깅스 이미지 카키"></a></div>
+                            <div class="swiper-slide color_li"><a href="#"><img src="./img/reggings/color03.png" alt="레깅스 이미지 퍼플"></a></div>
+                            <div class="swiper-slide color_li"><a href="#"><img src="./img/reggings/color04.png" alt="레깅스 이미지 블루"></a></div>
+                            <div class="swiper-slide color_li"><a href="#"><img src="./img/reggings/color05.png" alt="레깅스 이미지 옐로우"></a></div>
+                            <div class="swiper-slide color_li"><a href="#"><img src="./img/reggings/color05.png" alt="레깅스 이미지 화이트"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_total_wrap">
+                    <div class="total_wrap">
+                        <div class="total_number_wrap">
+                            <p>총 상품 금액(
+                                <span class="number">0</span>
+                            )개</p>
+                        </div>
+                        <div class="total_price_wrap">
+                            <strong>
+                                <span class="price">0</span>
+                            원</strong>
+                        </div>
+                        <a href="#" class="btn_bag">장바구니</a>
+                        <a href="#" class="btn_buy">구매하기</a>
+                    </div>
+                    <div class="btn_wrap"></div>
+                </div>
+            </form>
+        </section>
+        <section class="item_wrap">
+            <div class="item_title">
+                <h1>WITH ITEM</h1>
+                <p>함께 코디된 상품입니다.</p>
+            </div>
+            <div class="swiper item_all">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide item_li">
+                        <a href="#" class="item_img"><img src="./img/reggings/item01.png" alt="아이템 상품 이미지"></a>
+                        <div class="item_txt">
+                            <h2>젤라 인텐션 원숄더 브라탑 클라우드블루</h2>
+                            <p class="price">
+                                <strong>38%</strong>
+                                <em>48,000</em>
+                                <del>78,000</del>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_li">
+                        <a href="#" class="item_img"><img src="./img/reggings/item02.png" alt="아이템 상품 이미지"></a>
+                        <div class="item_txt">
+                            <h2>젤라 인텐션 원숄더 브라탑 클라우드블루</h2>
+                            <p class="price">
+                                <strong>38%</strong>
+                                <em>48,000</em>
+                                <del>78,000</del>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_li">
+                        <a href="#" class="item_img"><img src="./img/reggings/item03.png" alt="아이템 상품 이미지"></a>
+                        <div class="item_txt">
+                            <h2>젤라 인텐션 원숄더 브라탑 클라우드블루</h2>
+                            <p class="price">
+                                <strong>38%</strong>
+                                <em>48,000</em>
+                                <del>78,000</del>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_li">
+                        <a href="#" class="item_img"><img src="./img/reggings/item04.png" alt="아이템 상품 이미지"></a>
+                        <div class="item_txt">
+                            <h2>젤라 인텐션 원숄더 브라탑 클라우드블루</h2>
+                            <p class="price">
+                                <strong>38%</strong>
+                                <em>48,000</em>
+                                <del>78,000</del>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_li">
+                        <a href="#" class="item_img"><img src="./img/reggings/item04.png" alt="아이템 상품 이미지"></a>
+                        <div class="item_txt">
+                            <h2>젤라 인텐션 원숄더 브라탑 클라우드블루</h2>
+                            <p class="price">
+                                <strong>38%</strong>
+                                <em>48,000</em>
+                                <del>78,000</del>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section class="tab_wrap">
+            <ul class="tab_all">
+                <li class="active"><a href="#">상품 후기</a></li>
+                <li class="active"><a href="#">상세 정보</a></li>
+                <li class="active"><a href="#">사이즈 추천</a></li>
+                <li class="active"><a href="#">배송/교환/반품</a></li>
+                <li class="active"><a href="#">상품/문의</a></li>
+            </ul>
+        </section>
+        <section class="review_wrap">
+            <h1>REVIEW</h1>
+            <div class="rate_wrap">
+                <div class="rate_total">
+                    <span class="r_total"><img src="./img/reggings/star.png" alt="별">4.7</span>
+                </div>
+                <div class="rate_score">
+                    <div class="r_size">
+                        <p>사이즈</p>
+                        <div class="persentage">
+                            <div class="blue"></div>
+                            <div class="gray"></div>
+                        </div>
+                        <p>좋아요</p>
+                        <p>87%</p>
+                    </div>
+                    <div class="r_design">
+                        <p>디자인</p>
+                        <div class="persentage">
+                            <div class="blue"></div>
+                            <div class="gray"></div>
+                        </div>
+                        <p>좋아요</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="r_price">
+                        <p>가격</p>
+                        <div class="persentage">
+                            <div class="blue"></div>
+                            <div class="gray"></div>
+                        </div>
+                        <p>좋아요</p>
+                        <p>65%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="picture_wrap">
+                <h2>동영상/사진 모아보기</h2>
+                <div class="swiper picture_all">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide picture_li">
+                            <a href="#" class="picture_img"><!-- 백그라운드이미지 --></a>
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무 편한 핏입니다. 이제 색깔별로 사려고 장바구니에 넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide picture_li">
+                            <a href="#" class="picture_img"><!-- 백그라운드이미지 --></a>
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무 편한 핏입니다. 이제 색깔별로 사려고 장바구니에 넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide picture_li">
+                            <a href="#" class="picture_img"><!-- 백그라운드이미지 --></a>
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무 편한 핏입니다. 이제 색깔별로 사려고 장바구니에 넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide picture_li">
+                            <a href="#" class="picture_img"><!-- 백그라운드이미지 --></a>
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무 편한 핏입니다. 이제 색깔별로 사려고 장바구니에 넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide picture_li">
+                            <a href="#" class="picture_img"><!-- 백그라운드이미지 --></a>
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무 편한 핏입니다. 이제 색깔별로 사려고 장바구니에 넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide picture_li">
+                            <a href="#" class="picture_img"><!-- 백그라운드이미지 --></a>
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무 편한 핏입니다. 이제 색깔별로 사려고 장바구니에 넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="select_wrap">
+                <div class="select_detail">
+                    <select id="select_search" name="select_search">
+                        <option><!-- 백그라운드 이미지 --></option>
+                    </select>
+                    <select id="select_height" name="select_height">
+                        <option>키</option>
+                        <option value="150cm~">150cm~</option>
+                        <option value="160cm~">160cm~</option>
+                        <option value="170cm~">170cm~</option>
+                    </select>
+                    <select id="select_weight" name="select_weight">
+                        <option>몸무게</option>
+                        <option value="40kg~">40kg~</option>
+                        <option value="50kg~">50kg~</option>
+                        <option value="60kg~">60kg~</option>
+                    </select>
+                    <select id="select_size" name="select_size">
+                        <option>평소사이즈</option>
+                        <option value="40kg~">S</option>
+                        <option value="50kg~">M</option>
+                        <option value="60kg~">L</option>
+                        <option value="60kg~">XL</option>
+                        <option value="60kg~">XXL</option>
+                    </select>
+                </div>
+                <select id="select_star" name="select_star">
+                    <option>별점순</option>
+                    <option value="one"><!-- 백그라운드 이미지 --></option>
+                    <option value="two"><!-- 백그라운드 이미지 --></option>
+                    <option value="three"><!-- 백그라운드 이미지 --></option>
+                    <option value="four"><!-- 백그라운드 이미지 --></option>
+                    <option value="five"><!-- 백그라운드 이미지 --></option>
+                </select>
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <div class="f_top">
+            <div class="f_top_left">
+                <h1><img src="./img/logo02.png" alt="젝시믹스 로고"></h1>
+                <ul class="info">
+                    <li>사업자   주식회사 브랜드엑스코퍼레이션   |   대표자   이수연 강민준   |   팩스   02-2179-9410</li>
+                    <li>주소   서울시 성동구 뚝섬로1길 63 영창디지탈타워 B2F,4F,6F,12F,16F   |   대표전화   1661-2811</li>
+                    <li>반품주소지   경기도 의정부시 산단로98번길 65 303호 젝시믹스</li>
+                    <li>사업자등록번호   550-86-00867 [사업자정보확인]   |   통신판매업신고번호   2019-서울성동-01148</li>
+                    <li>반품주소지   경기도 의정부시 산단로98번길 65 303호 젝시믹스</li>
+                    <li>개인정보보호책임자   강교혁 (asitakak@brandxcorp.com)   |   온라인광고   brxmkt@brandxcorp.com</li>
+                    <li>외부몰입점&단체구매   xexymix_online@brandxcorp.com   |   매장문의   brxoffline@brandxcorp.com</li>
+                </ul>
+            </div>
+            <div class="f_top_right">
+                <ul class="bank">
+                    <li class="title">BANK</li>
+                    <li>우리은행   1005-703-294024</li>
+                    <li>국민은행   431801-01-213327</li>
+                    <li>농협   301-0259-9190-41</li>
+                    <li>(주)브랜드엑스코퍼레이션</li>
+                </ul>
+                <ul class="menu">
+                    <li class="title">MENU</li>
+                    <li>공지사항</li>
+                    <li>회원정책</li>
+                    <li>전국매장안내</li>
+                    <li>강사회원</li>
+                    <li>기업회원</li>
+                    <li>단체구매문의</li>
+                </ul>
+                <ul class="customer">
+                    <li class="title">1661-2811</li>
+                    <li>평일  10:00 - 17:00</li>
+                    <li>점심  12:30 - 14:00</li>
+                    <li>휴일  토/일/공휴일</li>
+                </ul>
+            </div>
+            <div class="bar"></div>
+        </div>
+        <div class="f_bottom">
+            <div class="f_bottom_left">
+                <ul class="privacy">
+                    <li>회사소개 |</li>
+                    <li>이용약관 |</li>
+                    <li class="privacy_link"><a href="#">개인정보처리방침 |</a></li>
+                    <li>고객센터 |</li>
+                </ul>
+            </div>
+            <div class="f_bottom_right">
+                <ul class="sns">
+                    <li><a href="#"><img src="./img/sns01.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/sns02.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/sns03.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
