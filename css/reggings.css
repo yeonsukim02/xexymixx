@@ -1,0 +1,145 @@
+/* 프로덕트 섹션 */
+main .product_wrap{}
+main .product_wrap .product_color_all{}
+main .product_wrap .product_color_all .product_color_wrap{}
+main .product_wrap .product_color_all .product_color_wrap .product_color_li{}
+main .product_wrap .product_color_all .product_color_wrap .product_color_li img{}
+main .product_wrap .product_color_all .swiper_button_prev{}
+main .product_wrap .product_color_all .swiper_button_next{}
+main .product_wrap{} #product_detail_wrap{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .name_wrap{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .name_wrap h1{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .name_wrap p{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .labe_wrap{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .labe_wrap p{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .price_wrap{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .price_wrap .present_price{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .price_wrap .previous_price{}
+main .product_wrap{} #product_detail_wrap .product_name_wrap .price_wrap .persentage{}
+main .product_wrap{} #product_detail_wrap .product_size_wrap{}
+main .product_wrap{} #product_detail_wrap .product_size_wrap .title_wrap{}
+main .product_wrap{} #product_detail_wrap .product_size_wrap .title_wrap h2{}
+main .product_wrap{} #product_detail_wrap .product_size_wrap .title_wrap p{}
+main .product_wrap{} #product_detail_wrap .product_size_wrap .size_wrap{}
+main .product_wrap{} #product_detail_wrap .product_size_wrap .size_wrap a{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .title_wrap h2{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .title_wrap p{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_all{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap .color_li{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap .color_li a{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap .color_li a img{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_number{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_number .number{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_price{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_price .price{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .btn_wrap{}
+/* 위드아이템 섹션 */
+main .withitem_wrap{}
+main .withitem_wrap .item_title{}
+main .withitem_wrap .item_title h1{}
+main .withitem_wrap .item_title p{}
+main .withitem_wrap .item_all{}
+main .withitem_wrap .item_all .item_wrap{}
+main .withitem_wrap .item_all .item_wrap .item_li{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_img{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_img img{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_txt{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_txt h2{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price .persentage{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price .present_price{}
+main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price .previous_price{}
+/* 탭 섹션 */
+main .tab_wrap{}
+main .tab_wrap a{}
+main .tab_wrap a.active{}
+/* 리뷰 섹션 */
+main .review_wrap{}
+main .review_wrap h1{}
+main .review_wrap .rate_wrap{}
+main .review_wrap .rate_wrap .rate_total{}
+main .review_wrap .rate_wrap .rate_total img{}
+main .review_wrap .rate_wrap .rate_score{}
+main .review_wrap .rate_wrap .rate_score .size{}
+main .review_wrap .rate_wrap .rate_score .size p{}
+main .review_wrap .rate_wrap .rate_score .size .bar{}
+main .review_wrap .rate_wrap .rate_score .size .bar .progressing{}
+main .review_wrap .rate_wrap .rate_score .design{}
+main .review_wrap .rate_wrap .rate_score .design p{}
+main .review_wrap .rate_wrap .rate_score .design .bar{}
+main .review_wrap .rate_wrap .rate_score .design .bar .progressing{}
+main .review_wrap .rate_wrap .rate_score .price{}
+main .review_wrap .rate_wrap .rate_score .price p{}
+main .review_wrap .rate_wrap .rate_score .price .bar{}
+main .review_wrap .rate_wrap .rate_score .price .bar .progressing{}
+/* 픽쳐섹션 */
+main .media_wrap{}
+main .media_wrap .media_title{}
+main .media_wrap .media_title h2{}
+main .media_wrap .media_title a{}
+main .media_wrap .media_title a img{}
+main .media_wrap .picture_all{}
+main .media_wrap .picture_all .picture_wrap{}
+main .media_wrap .picture_all .picture_wrap .picture_li{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt .score{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt .score li{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt .score li img{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt .reivew{}
+main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt .date{}
+/* 셀렉트 섹션 */
+main .select_wrap{}
+main .select_wrap .button{}
+main .select_wrap .button img{}
+main .select_wrap #select_height{}
+main .select_wrap #select_height option{}
+main .select_wrap #select_weight{}
+main .select_wrap #select_weight option{}
+main .select_wrap #select_size{}
+main .select_wrap #select_size option{}
+main .select_wrap #select_order{}
+main .select_wrap #select_order option{}
+/* 픽 섹션 */
+main .pick_wrap{}
+main .pick_wrap .pick_detail{}
+main .pick_wrap .pick_detail .detail_top{}
+main .pick_wrap .pick_detail .detail_top p{}
+main .pick_wrap .pick_detail .detail_bottom{}
+main .pick_wrap .pick_detail .detail_bottom dt{}
+main .pick_wrap .pick_detail .detail_bottom dd{}
+main .pick_wrap .pick_txt{}
+main .pick_wrap .pick_txt .pick_score{}
+main .pick_wrap .pick_txt .pick_score .score{}
+main .pick_wrap .pick_txt .pick_score .score li{}
+main .pick_wrap .pick_txt .pick_score .score li img{}
+main .pick_wrap .pick_txt .pick_score .pick{}
+main .pick_wrap .pick_txt .pick_review{}
+main .pick_wrap .pick_txt .pick_review p{}
+main .pick_wrap .pick_txt .pick_review p span{}
+main .pick_wrap .pick_txt .pick_img{}
+main .pick_wrap .pick_txt .pick_img img{}
+main .pick_wrap .pick_txt .pick_comment{}
+main .pick_wrap .pick_txt .pick_comment a{}
+main .pick_wrap .pick_txt .pick_comment a img{}
+main .pick_wrap .pick_txt .pick_comment p{}
+main .pick_wrap .pick_txt .pick_comment p span{}
+/* 페이지 섹션 */
+main .page_wrap{}
+main .page_wrap a{}
+main .page_wrap a img{}
+main .page_wrap .arrow_left_double{}
+main .page_wrap .arrow_left_double img{}
+main .page_wrap .arrow_left{}
+main .page_wrap .arrow_left img{}
+main .page_wrap .page_number{}
+main .page_wrap .page_number a{}
+main .page_wrap .page_number a.active{}
+main .page_wrap .arrow_right{}
+main .page_wrap .arrow_right img{}
+main .page_wrap .arrow_right_double img{}
