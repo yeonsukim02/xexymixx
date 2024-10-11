@@ -23,14 +23,14 @@ main .product_wrap{} #product_detail_wrap .product_size_wrap .title_wrap h2{}
 main .product_wrap{} #product_detail_wrap .product_size_wrap .title_wrap p{}
 main .product_wrap{} #product_detail_wrap .product_size_wrap .size_wrap{}
 main .product_wrap{} #product_detail_wrap .product_size_wrap .size_wrap a{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap{}
 main .product_wrap{} #product_detail_wrap .product_color_wrap .title_wrap h2{}
 main .product_wrap{} #product_detail_wrap .product_color_wrap .title_wrap p{}
 main .product_wrap{} #product_detail_wrap .product_color_wrap .color_all{}
-main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap{}
-main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap{}
-main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap .color_li{}
-main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap .color_li a{}
-main .product_wrap{} #product_detail_wrap .product_color_wrap .color_wrap .color_wrap .color_li a img{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_all .color_wrap{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_all .color_wrap .color_li{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_all .color_wrap .color_li a{}
+main .product_wrap{} #product_detail_wrap .product_color_wrap .color_all .color_wrap .color_li a img{}
 main .product_wrap{} #product_detail_wrap .product_total_wrap{}
 main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap{}
 main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_number{}
@@ -38,6 +38,8 @@ main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total
 main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_price{}
 main .product_wrap{} #product_detail_wrap .product_total_wrap .total_wrap .total_price .price{}
 main .product_wrap{} #product_detail_wrap .product_total_wrap .btn_wrap{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .btn_wrap .btn_cart{}
+main .product_wrap{} #product_detail_wrap .product_total_wrap .btn_wrap .btn_buy{}
 /* 위드아이템 섹션 */
 main .withitem_wrap{}
 main .withitem_wrap .item_title{}
@@ -54,6 +56,8 @@ main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price{}
 main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price .persentage{}
 main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price .present_price{}
 main .withitem_wrap .item_all .item_wrap .item_li .item_txt .price .previous_price{}
+main .withitem_wrap .swiper_button_prev{}
+main .withitem_wrap .swiper_button_next{}
 /* 탭 섹션 */
 main .tab_wrap{}
 main .tab_wrap a{}
@@ -69,14 +73,17 @@ main .review_wrap .rate_wrap .rate_score .size{}
 main .review_wrap .rate_wrap .rate_score .size p{}
 main .review_wrap .rate_wrap .rate_score .size .bar{}
 main .review_wrap .rate_wrap .rate_score .size .bar .progressing{}
+main .review_wrap .rate_wrap .rate_score .size .persentage{}
 main .review_wrap .rate_wrap .rate_score .design{}
 main .review_wrap .rate_wrap .rate_score .design p{}
 main .review_wrap .rate_wrap .rate_score .design .bar{}
 main .review_wrap .rate_wrap .rate_score .design .bar .progressing{}
+main .review_wrap .rate_wrap .rate_score .design .persentage{}
 main .review_wrap .rate_wrap .rate_score .price{}
 main .review_wrap .rate_wrap .rate_score .price p{}
 main .review_wrap .rate_wrap .rate_score .price .bar{}
 main .review_wrap .rate_wrap .rate_score .price .bar .progressing{}
+main .review_wrap .rate_wrap .rate_score .price .persentage{}
 /* 픽쳐섹션 */
 main .media_wrap{}
 main .media_wrap .media_title{}
@@ -95,8 +102,8 @@ main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_tx
 main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt .date{}
 /* 셀렉트 섹션 */
 main .select_wrap{}
-main .select_wrap .button{}
-main .select_wrap .button img{}
+main .select_wrap .select_search{}
+main .select_wrap .select_search img{}
 main .select_wrap #select_height{}
 main .select_wrap #select_height option{}
 main .select_wrap #select_weight{}
@@ -142,4 +149,5 @@ main .page_wrap .page_number a{}
 main .page_wrap .page_number a.active{}
 main .page_wrap .arrow_right{}
 main .page_wrap .arrow_right img{}
+main .page_wrap .arrow_right_double{}
 main .page_wrap .arrow_right_double img{}
