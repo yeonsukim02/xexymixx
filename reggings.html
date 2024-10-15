@@ -52,11 +52,11 @@
             <div class="swiper product_color_all"><!-- 스와이퍼 -->
                 <div class="swiper-wrapper product_color_wrap">
                     <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 블랙"></div>
-                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 카키"></div>
-                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 퍼플"></div>
-                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 블루"></div>
-                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 옐로우"></div>
-                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main01.png" alt="레깅스 이미지 화이트"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main02.png" alt="레깅스 이미지 카키"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main03.png" alt="레깅스 이미지 퍼플"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main04.png" alt="레깅스 이미지 블루"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main05.png" alt="레깅스 이미지 옐로우"></div>
+                    <div class="swiper-slide product_color_li"><img src="./img/reggings/main06.png" alt="레깅스 이미지 화이트"></div>
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -116,6 +116,7 @@
                                 <a href="#"><img src="./img/reggings/color05.png" alt="레깅스 이미지 화이트"></a>
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div><!--  -->
                     </div>
                 </div>
                 <div class="product_total_wrap">
@@ -139,7 +140,7 @@
                 <h1>WITH ITEM</h1>
                 <p>함께 코디된 상품입니다.</p>
             </div>
-            <div class="swiper item_all">
+            <div class="swiper item_all"><!-- 스와이퍼 -->
                 <div class="swiper-wrapper item_wrap">
                     <div class="swiper-slide item_li">
                         <a href="#" class="item_img"><img src="./img/reggings/item01.png" alt="아이템 상품 이미지"></a>
@@ -229,13 +230,13 @@
                         </div>
                         <p class="persentage">90%</p>
                     </div>
-                    <div class="price">
+                    <div class="cost">
                         <p>가격</p>
                         <p>좋아요</p>
                         <div class="bar">
                             <div class="progressing"></div>
                         </div>
-                        <p class="persentage">65%</p>
+                        <p class="persentage">90%</p>
                     </div>
                 </div>
             </div>
@@ -247,6 +248,22 @@
             </div>
             <div class="swiper picture_all">
                 <div class="swiper-wrapper picture_wrap">
+                    <div class="swiper-slide picture_li">
+                        <a href="#" class="picture_img">
+                            <!-- 백그라운드 이미지 -->
+                            <div class="picture_txt">
+                                <ul class="score">
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                    <li><img src="./img/reggings/star_white.png" alt="별 화이트"></li>
+                                </ul>
+                                <p class="review">키가 커서 작을까 고민했는데 너무  편한 핏입니다. 이제 색깔별로 사려고 장바구니에   넣어두었습니다. 만족합니다.</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </a>
+                    </div>
                     <div class="swiper-slide picture_li">
                         <a href="#" class="picture_img">
                             <!-- 백그라운드이미지 -->
@@ -331,6 +348,7 @@
             </div>
         </section>
         <section class="select_wrap">
+            <div class="select_left">
                 <button class="select_search" type="button" name="search"><img src="./img/reggings/search.png" alt="상품 검색하기"></button>
                 <select id="select_height" name="select_height">
                     <option>키</option>
@@ -352,52 +370,143 @@
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>
                 </select>
+            </div>
+            <div class="select_right">
                 <select id="select_order" name="select_star">
                     <option>별점순</option>
                     <option class="latest">최신순</option>
                     <option class="recommend">추천순</option>
                     <option class="star">별점순</option>
                 </select>
+            </div>
         </section>
         <section class="pick_wrap">
-            <div class="pick_detail">
-                <div class="detail_top">
-                    <p>김*진</p>
-                    <p>2024.08.10</p>
+            <div class="pick_all">
+                <div class="pick_li">
+                    <div class="pick_detail">
+                        <div class="detail_top">
+                            <p>김*진</p>
+                            <p>2024.08.10</p>
+                        </div>
+                        <dl class="detail_bottom">
+                            <dt>키</dt>
+                            <dd>165cm</dd>
+                            <dt>몸무게</dt>
+                            <dd>50kg</dd>
+                            <dt>평소사이즈</dt>
+                            <dd>S</dd>
+                            <dt>구매옵션</dt>
+                            <dd>블랙라벨 시그니처 380N<br>[핑키퍼플]</dd>
+                        </dl>
+                    </div>
+                    <div class="pick_txt">
+                        <div class="pick_score">
+                            <ul class="score">
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                            </ul>
+                            <p class="pick">젝시믹스 PICK</p>
+                        </div>
+                        <div class="pick_review">
+                            <p>사이즈<span>잘 맞아요</span></p>
+                            <p>제 키가 165cm에 몸무게 43kg 나가고 44잆었는데 기장이든 폭이든 딱 맞고 여름에 입어도 시원하고 너무 편해요. 손이 자주 가요.</p>
+                        </div>
+                        <div class="pick_img">
+                            <img src="./img/reggings/pick01.png" alt="추천 리뷰 이미지">
+                            <img src="./img/reggings/pick01.png" alt="추천 리뷰 이미지">
+                        </div>
+                        <div class="pick_comment">
+                            <a href="#"><img src="./img/reggings/thumb.png" alt="좋아요"></a>
+                            <p>유용해요<span>12</span></p>
+                        </div>
+                    </div>
                 </div>
-                <dl class="detail_bottom">
-                    <dt>키</dt>
-                    <dd>165cm</dd>
-                    <dt>몸무게</dt>
-                    <dd>50kg</dd>
-                    <dt>평소사이즈</dt>
-                    <dd>S</dd>
-                    <dt>구매옵션</dt>
-                    <dd>블랙라벨 시그니처 380N<br>[핑키퍼플]</dd>
-                </dl>
-            </div>
-            <div class="pick_txt">
-                <div class="pick_score">
-                    <ul class="score">
-                        <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
-                        <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
-                        <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
-                        <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
-                        <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
-                    </ul>
-                    <p class="pick">젝시믹스 PICK</p>
+                <div class="pick_li">
+                    <div class="pick_detail">
+                        <div class="detail_top">
+                            <p>김*진</p>
+                            <p>2024.08.10</p>
+                        </div>
+                        <dl class="detail_bottom">
+                            <dt>키</dt>
+                            <dd>165cm</dd>
+                            <dt>몸무게</dt>
+                            <dd>50kg</dd>
+                            <dt>평소사이즈</dt>
+                            <dd>S</dd>
+                            <dt>구매옵션</dt>
+                            <dd>블랙라벨 시그니처 380N<br>[핑키퍼플]</dd>
+                        </dl>
+                    </div>
+                    <div class="pick_txt">
+                        <div class="pick_score">
+                            <ul class="score">
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                            </ul>
+                            <p class="pick">젝시믹스 PICK</p>
+                        </div>
+                        <div class="pick_review">
+                            <p>사이즈<span>잘 맞아요</span></p>
+                            <p>제 키가 165cm에 몸무게 43kg 나가고 44잆었는데 기장이든 폭이든 딱 맞고 여름에 입어도 시원하고 너무 편해요. 손이 자주 가요.</p>
+                        </div>
+                        <div class="pick_img">
+                            <img src="./img/reggings/pick02.png" alt="추천 리뷰 이미지">
+                            <img src="./img/reggings/pick02.png" alt="추천 리뷰 이미지">
+                        </div>
+                        <div class="pick_comment">
+                            <a href="#"><img src="./img/reggings/thumb.png" alt="좋아요"></a>
+                            <p>유용해요<span>12</span></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="pick_review">
-                    <p>사이즈<span>잘 맞아요</span></p>
-                    <p>제 키가 165cm에 몸무게 43kg 나가고 44잆었는데 기장이든 폭이든 딱 맞고 여름에 입어도 시원하고 너무 편해요. 손이 자주 가요.</p>
-                </div>
-                <div class="pick_img">
-                    <img src="./img/reggings/pick01.png" alt="추천 리뷰 이미지">
-                    <img src="./img/reggings/pick01.png" alt="추천 리뷰 이미지">
-                </div>
-                <div class="pick_comment">
-                    <a href="#"><img src="./img/reggings/thumb.png" alt="좋아요"></a>
-                    <p>유용해요<span>12</span></p>
+                <div class="pick_li">
+                    <div class="pick_detail">
+                        <div class="detail_top">
+                            <p>김*진</p>
+                            <p>2024.08.10</p>
+                        </div>
+                        <dl class="detail_bottom">
+                            <dt>키</dt>
+                            <dd>165cm</dd>
+                            <dt>몸무게</dt>
+                            <dd>50kg</dd>
+                            <dt>평소사이즈</dt>
+                            <dd>S</dd>
+                            <dt>구매옵션</dt>
+                            <dd>블랙라벨 시그니처 380N<br>[핑키퍼플]</dd>
+                        </dl>
+                    </div>
+                    <div class="pick_txt">
+                        <div class="pick_score">
+                            <ul class="score">
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                                <li><img src="./img/reggings/star_black.png" alt="별 블랙"></li>
+                            </ul>
+                            <p class="pick">젝시믹스 PICK</p>
+                        </div>
+                        <div class="pick_review">
+                            <p>사이즈<span>잘 맞아요</span></p>
+                            <p>제 키가 165cm에 몸무게 43kg 나가고 44잆었는데 기장이든 폭이든 딱 맞고 여름에 입어도 시원하고 너무 편해요. 손이 자주 가요.</p>
+                        </div>
+                        <div class="pick_img">
+                            <img src="./img/reggings/pick03.png" alt="추천 리뷰 이미지">
+                            <img src="./img/reggings/pick04.png" alt="추천 리뷰 이미지">
+                        </div>
+                        <div class="pick_comment">
+                            <a href="#"><img src="./img/reggings/thumb.png" alt="좋아요"></a>
+                            <p>유용해요<span>12</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
