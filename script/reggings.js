@@ -3,8 +3,8 @@ const product_color_all= new Swiper(".product_color_all",{
     slidesPerShow: 1,
     
     navigation: {
-        prevEl: '.color_all .swiper-button-prev',
-        nextEl: '.color_all .swiper-button-next',
+        prevEl: '.product_color_all .swiper-button-prev',
+        nextEl: '.product_color_all .swiper-button-next',
     },
     loop:true,
 })
@@ -23,10 +23,12 @@ const item_all= new Swiper(".item_all",{
         prevEl: '.withitem_wrap .swiper-button-prev',
         nextEl: '.withitem_wrap .swiper-button-next',
     },
-    loop:true,
+    autoplay:{delay:2000},
+    loop: true,
 })
 const picture_all= new Swiper(".picture_all",{
-    slidesPerView: 4,
-    spaceBetween: 20,
-    loop:true,
+    slidesPerView: 5,
+    spaceBetween: 40,
+    autoplay:{delay:2000},
+    loop: true,
 })
