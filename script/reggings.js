@@ -1,7 +1,5 @@
 const product_color_all= new Swiper(".product_color_all",{
-    slidesPerView: 1,
-    slidesPerShow: 1,
-    
+    slidesPerView: 1,    
     navigation: {
         prevEl: '.product_color_all .swiper-button-prev',
         nextEl: '.product_color_all .swiper-button-next',

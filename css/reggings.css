@@ -193,11 +193,11 @@ main .review_wrap h1{
     margin-bottom: 50px;
 }
 main .review_wrap .rate_wrap{
-    /* background-color: red; */
     display: flex;
     padding: 50px 0;
     border-top: 1px solid #D1D1D1;
     border-bottom: 1px solid #D1D1D1;
+    /* background-color: red; */
 }
 main .review_wrap .rate_wrap .rate_total{
     font-size: 2.25rem;
@@ -261,8 +261,8 @@ main .media_wrap .media_title{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    /* background-color: red; */
     margin-bottom: 50px;
+    /* background-color: red; */
 }
 main .media_wrap .media_title h2{
     font-weight: 600;
@@ -280,17 +280,17 @@ main .media_wrap .picture_all .picture_wrap .picture_li{
     /* background-color: blue; */
 }
 /* 공통 */
-main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(2) .picture_img{background: url(../img/reggings/picture01.png) no-repeat;}
+main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(1) .picture_img{background: url(../img/reggings/picture01.png) no-repeat;}
+main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(2) .picture_img{background: url(../img/reggings/picture02.png) no-repeat;}
 main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(3) .picture_img{background: url(../img/reggings/picture03.png) no-repeat;}
 main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(4) .picture_img{background: url(../img/reggings/picture04.png) no-repeat;}
 main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(5) .picture_img{background: url(../img/reggings/picture05.png) no-repeat;}
 main .media_wrap .picture_all .picture_wrap .picture_li:nth-child(6) .picture_img{background: url(../img/reggings/picture06.png) no-repeat;}
 main .media_wrap .picture_all .picture_wrap .picture_li .picture_img{
-    background: url(../img/reggings/picture01.png) no-repeat;
-    /*  */
     width: 300px;
     height: 450px;
     display: block;
+    background-size: cover;
 }
 main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_txt{
     padding: 300px 10px 0 10px;
@@ -323,7 +323,7 @@ main .select_wrap{
     display: flex;
     justify-content: space-between;
     width: 1600px;
-    margin: 200px auto 30px;
+    margin: 200px auto 90px;
 }
 main .select_wrap .select_left{}
 main .select_wrap .select_right{}
@@ -361,14 +361,14 @@ main .select_wrap .select_right #select_order option{}
 main .pick_wrap{
     width: 1600px; 
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 60px 0;
     border-top: 1px solid #d9d9d9;
 }
 main .pick_wrap .pick_all{}
 main .pick_wrap .pick_all .pick_li{
     display: flex;
-    /* background-color: purple; */
     border-bottom: 1px solid #d9d9d9;
+    /* background-color: purple; */
 }
 main .pick_wrap .pick_all .pick_li .pick_detail{
     width: 25%; 
@@ -382,15 +382,18 @@ main .pick_wrap .pick_all .pick_li .pick_detail .detail_top p{font-size: 1.25rem
 main .pick_wrap .pick_all .pick_li .pick_detail .detail_bottom{
     display: flex;
     flex-wrap: wrap;
+    padding: 0 30px;
     /* background-color: blue; */
 }
 main .pick_wrap .pick_all .pick_li .pick_detail .detail_bottom dt{
     width: 30%;
-    /* background-color: green; */
+    line-height: 1.8;
     margin-bottom: 15px;
+    /* background-color: green; */
 }
 main .pick_wrap .pick_all .pick_li .pick_detail .detail_bottom dd{
     width: 70%;
+    line-height: 1.8;
     /* background-color: yellow; */
 }
 main .pick_wrap .pick_all .pick_li .pick_txt{
@@ -428,14 +431,15 @@ main .page_wrap{
     width: 820px;
     margin: 0 auto 350px;
 }
+/* 공통 */
 main .page_wrap a{
     display: inline-block;
     width: 40px; height: 40px;
     text-align: center;
     line-height: 40px;
-    border: 1px solid #999;
     border-radius: 8px;
     margin-right: 20px;
+    background-color: #fafafa;
 }
 main .page_wrap > a{background-color: #e3e3e3;}
 main .page_wrap > a > img{vertical-align: middle; transform: translateY(-10%);}
