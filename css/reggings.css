@@ -321,14 +321,15 @@ main .media_wrap .picture_all .picture_wrap .picture_li .picture_img .picture_tx
 /* 셀렉트 섹션 */
 main .select_wrap{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     width: 1600px;
     margin: 200px auto 30px;
 }
-main .select_wrap .select_left{display: flex; margin-bottom: 20px;}
-main .select_wrap .select_right{display: flex; justify-content: flex-end;}
+main .select_wrap .select_left{}
+main .select_wrap .select_right{}
 /* 공통 */
-main .select_wrap select{
+main .select_wrap .select_left select,
+main .select_wrap .select_right select{
     margin-left: 30px;
     font-size: 1.25rem;
     padding: 15px 40px 20px 15px;
@@ -337,7 +338,6 @@ main .select_wrap select{
     appearance: none;
     background: url(../img/reggings/arrow_down.png) no-repeat 90% center;
     /* background-color: green; */
-    
 }
 main .select_wrap .select_left .select_search{
     padding: 19px;
